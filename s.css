@@ -1,5 +1,9 @@
 .logo{
-  background-color: #000;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 29%, rgb(60, 0, 0) 74%);
+  width: 100%;
   display: flex;
   max-width: 100%;
+  position: relative;
+  animation: gradient0 5s ease infinite;
+  background-size: 200% 200%;
 }
