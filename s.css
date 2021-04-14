@@ -1,9 +1,6 @@
 .logo{
-  background: black;
+  background: #000;
   height: 10%;
   display: flex;
   max-width: 100%;
-  position: relative;
-  animation: gradient0 5s ease infinite;
-  background-size: 200% 200%;
 }
