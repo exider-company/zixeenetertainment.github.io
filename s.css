@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  background: white;
+  display: flex;
+  width: 100%;
+}
+.logo1{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 14%;
+  display: block;
+  padding-left: 83px;
+}
