@@ -3,15 +3,46 @@
   padding: 0;
 }
 
+/* HEADER 1 */
+
 .logo{
-  background: white;
+  background: black;
   display: flex;
-  width: 100%;
 }
+
 .logo1{
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 14%;
+  width: 11.3%;
   display: block;
-  padding-left: 83px;
+  margin: auto;
+}
+
+/* ALL FADE */
+.q{
+  background-color: black;
+}
+
+/* MEDIA */
+@media (max-width:2000px) {
+  .logo1{
+    width: 10.3%;
+  }
+@media (max-width:1800px) {
+  .logo1{
+    width: 13%;
+  }
+}
+@media (max-width:1650px) {
+  .logo1{
+    width: 15%;
+  }
+@media (max-width:1250px) {
+  .logo1{
+    width: 20%;
+  }
+  @media (max-width:1050px) {
+    .logo1{
+      width: 30%;
+    }
 }
