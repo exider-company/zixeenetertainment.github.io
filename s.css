@@ -1,13 +1,49 @@
+/* CODE BY SICOME */
+/* CSS V2 |ZIXE| */
+/* ___________________________________________________ */
+/* ALL FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap"');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+/* ___________________________________________________ */
+
 *{
   margin: 0;
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* ___________________________________________________ */
+
+/* ALL FADE */
+.s{
+  color: white;
+  size: 0.3px;
+}
+
+.hea{
+  width: 45%;
+  margin: auto;
+  height: 1px;
+  background: white;
+  border: 3px black;
+}
+
+/* ___________________________________________________ */
+
 /* HEADER 1 */
 
 .logo{
-  background: black;
-  display: flex;
+  width: 100%;
+  background-color: black;
 }
 
 .logo1{
@@ -18,16 +54,79 @@
   margin: auto;
 }
 
-/* ALL FADE */
-.q{
+/* ___________________________________________________ */
+
+/* ALL head-parx */
+
+.f_p{
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.f_p:nth-last-child(2){
+  margin: 0;
+  padding: 0;
+  background-size: 70%;
+  background-repeat: repeat;
+  background-image: url("https://st.depositphotos.com/2079065/4251/v/950/depositphotos_42518963-stock-illustration-food-seamless-pattern-in-black.jpg");
+  height: 50vh;
+  border: border-box;
+}
+
+.f_p:nth-last-child(1){
   background-color: black;
 }
 
+/* ___________________________________________________ */
+
+/* FIRST TEXT */
+
+.first_text{
+  color: Snow;
+  text-shadow: 2px 2px 7px black;
+  text-align: center;
+  padding-top: 20vh;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 8vh;
+}
+
+/* ___________________________________________________ */
+
+/* ALL HEADER */
+
+.first_hr{
+  color: black;
+  height: 2vh;
+}
+
+.header_f{
+  background-color: white;
+  text-align: center;
+}
+
+.header_text{
+  text-decoration: none;
+  color: black;
+  font-size: 4vh;
+  transition: 0.2s;
+}
+
+.header_text:hover{
+  text-decoration: none;
+  color: white;
+  font-size: 4.2vh;
+}
+
+/* ___________________________________________________ */
+
 /* MEDIA */
-@media (max-width:2000px) {
+
+@media (max-width:1900px) {
   .logo1{
     width: 10.3%;
-  }
+}
+}
 @media (max-width:1800px) {
   .logo1{
     width: 13%;
@@ -36,13 +135,18 @@
 @media (max-width:1650px) {
   .logo1{
     width: 15%;
-  }
+ }
+}
+
 @media (max-width:1250px) {
   .logo1{
     width: 20%;
-  }
-  @media (max-width:1050px) {
-    .logo1{
-      width: 30%;
-    }
+}
+}
+
+@media (max-width:700px) {
+
+.header_text{
+  overflow: hidden;
+ }
 }
