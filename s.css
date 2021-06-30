@@ -127,26 +127,170 @@ body {
     width: 10.3%;
 }
 }
-@media (max-width:1800px) {
+@media (mix-width:1700px) {
   .logo1{
     width: 13%;
   }
+
+  .f_p{
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }
+  .f_p:nth-last-child(2){
+    margin: 0;
+    padding: 0;
+    background-size: 70%;
+    background-repeat: repeat;
+    background-image: url("https://st.depositphotos.com/2079065/4251/v/950/depositphotos_42518963-stock-illustration-food-seamless-pattern-in-black.jpg");
+    height: 50vh;
+    border: border-box;
+  }
+
 }
 @media (max-width:1650px) {
   .logo1{
     width: 15%;
  }
-}
 
-@media (max-width:1250px) {
+ .f_p:nth-last-child(2){
+   margin: 0;
+   padding: 0;
+   background-size: 100%;
+   background-repeat: repeat;
+   background-image: url("https://st.depositphotos.com/2079065/4251/v/950/depositphotos_42518963-stock-illustration-food-seamless-pattern-in-black.jpg");
+   height: 50vh;
+   border: border-box;
+ }
+}
+@media (max-width:1300px) {
   .logo1{
     width: 20%;
 }
-}
-
-@media (max-width:700px) {
-
 .header_text{
-  overflow: hidden;
- }
+  text-decoration: none;
+  color: black;
+  font-size: 3vh;
+  transition: 0.2s;
 }
+
+.first_text{
+  color: black;
+  text-shadow: 1px 1px 5px red;
+  text-align: center;
+  padding-top: 10vh;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 6vh;
+}
+
+@media (max-width:1000px) {
+  .logo1{
+    width: 25%;
+}
+.header_text{
+   visibility: hidden;
+}
+
+.first_text{
+  color: black;
+  text-shadow: 1px 1px 5px red;
+  text-align: center;
+  padding-top: 7vh;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 5vh;
+}
+
+.f_p:nth-last-child(2){
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-image: url("https://st.depositphotos.com/2079065/4251/v/950/depositphotos_42518963-stock-illustration-food-seamless-pattern-in-black.jpg");
+  height: 20vh;
+  border: border-box;
+}
+
+@media (max-width:500px) {
+  .logo1{
+    width: 40%;
+}
+.header_text{
+   visibility: hidden;
+}
+
+.first_text{
+  color: black;
+  text-shadow: 1px 1px 5px red;
+  text-align: center;
+  padding-top: 7vh;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 5vh;
+}
+
+.f_p:nth-last-child(2){
+  margin: 0;
+  padding: 0;
+  background-size: 80%;
+  background-repeat: repeat;
+  background-image: url("https://st.depositphotos.com/2079065/4251/v/950/depositphotos_42518963-stock-illustration-food-seamless-pattern-in-black.jpg");
+  height: 20vh;
+  border: border-box;
+}
+
+@media (max-width:500px) {
+  .logo1{
+    width: 40%;
+}
+.header_text{
+   visibility: hidden;
+   font-size: 1vh;
+}
+
+.first_text{
+  color: black;
+  text-shadow: none;
+  text-align: center;
+  padding-top: 7vh;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 4vh;
+}
+
+.f_p:nth-last-child(2){
+  margin: 0;
+  padding: 0;
+  background-size: 80%;
+  background-repeat: repeat;
+  background-image: url("https://st.depositphotos.com/2079065/4251/v/950/depositphotos_42518963-stock-illustration-food-seamless-pattern-in-black.jpg");
+  height: 20vh;
+}
+
+@media (max-width:380px) {
+  .logo1{
+    width: 40%;
+}
+.header_text{
+   visibility: hidden;
+   font-size: 1vh;
+}
+
+.first_text{
+  color: black;
+  text-shadow: none;
+  text-align: center;
+  padding-top: 5vh;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3.5vh;
+}
+
+.f_p:nth-last-child(2){
+  margin: 0;
+  padding: 0;
+  background-size: 80%;
+  background-repeat: repeat;
+  background-image: url("https://st.depositphotos.com/2079065/4251/v/950/depositphotos_42518963-stock-illustration-food-seamless-pattern-in-black.jpg");
+  height: 15vh;
+}
+
+/* ___________________________________________________ */
+
