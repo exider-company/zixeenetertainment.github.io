@@ -1,0 +1,37 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.zl{
+  background-color: white;
+}
+.zixelogo{
+  padding-top: 1%;
+  padding-bottom: 0.7%;
+  width: 13vw;
+  padding-left: 43.5vw;
+  background-color: white;
+
+  image-rendering: optimizeSpeed;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.arroy{
+  width: 3.5vw;
+  margin-left: 48.25vw;
+  margin-top: 0;
+  transition: 0.2s;
+}
+
+.asas{
+  height: 0.1vh;
+  width: 100%;
+  background-color: white;
+  transition: 0.2s;
+}
+
+.arr:hover .asas{
+  padding-top: 2%;
+}
