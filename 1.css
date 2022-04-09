@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@200;300&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&family=Bebas+Neue&family=Dosis:wght@200;300&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anybody:ital,wght@0,200;0,500;1,200&family=Bebas+Neue&family=Dosis:wght@200;300&family=EB+Garamond:ital,wght@0,400;0,500;1,500&family=Libre+Baskerville&display=swap');
+
 body{
   background-color: black;
   margin: 0;
@@ -6,13 +12,14 @@ body{
 
 .zl{
   background-color: white;
+  image-rendering: optimizeSpeed;
+  image-rendering: -webkit-optimize-contrast;
 }
 .zixelogo{
   padding-top: 1%;
-  padding-bottom: 0.7%;
+  padding-bottom: 1%;
   width: 13vw;
   padding-left: 43.5vw;
-  background-color: white;
 
   image-rendering: optimizeSpeed;
   image-rendering: -webkit-optimize-contrast;
@@ -22,16 +29,206 @@ body{
   width: 3.5vw;
   margin-left: 48.25vw;
   margin-top: 0;
-  transition: 0.2s;
+  transition: 0.21s;
+  padding-top: 0;
+  image-rendering: optimizeSpeed;
+  image-rendering: -webkit-optimize-contrast;
 }
-
+.arr{
+  margin: 0;
+  image-rendering: optimizeSpeed;
+  image-rendering: -webkit-optimize-contrast;
+}
 .asas{
-  height: 0.1vh;
+  border: 0;
+  height: 0vh;
   width: 100%;
   background-color: white;
-  transition: 0.2s;
+  transition: 0.21s;
+  position: absolute;
+  text-align: center;
 }
 
 .arr:hover .asas{
-  padding-top: 2%;
+  height: 5vh;
+  cursor: pointer;
+  padding-top: 0.5%;
+}
+.arr:hover .arroy{
+  padding-top: 5.2vh;
+  cursor: pointer;
+}
+.arr:hover .a1{
+  visibility: visible;
+  pointer-events: all;
+}
+
+.hrr{
+  margin: 0;
+  padding: 0;
+  border-top-color: white;
+  border-bottom-color: white;
+  background-color: white;
+  border-left-color: white;
+  color: white;
+  transition: 1.2s;
+  width: 100%;
+  border: 0;
+  height: 0.2vh;
+}
+
+.arr:hover .hrr{
+  width: 0%;
+  border-top-color: black;
+  border-bottom-color: black;
+  background-color: black;
+  border-left-color: black;
+  color: black;
+}
+
+
+.a1{
+  padding-top: 20px;
+  position: relative;
+  pointer-events: none;
+  text-decoration: none;
+  font-size: 1.3vw;
+  visibility: hidden;
+  transition: 3.2s;
+  color: black;
+  font-family: 'Dosis', sans-serif;
+}
+
+.a1:hover{
+  color: white;
+  margin-left: 0.1%;
+}
+
+.new{
+  margin: 0;
+  padding: 0;
+}
+
+.half{
+  width: 17%;
+  image-rendering: optimizeSpeed;
+  image-rendering: -webkit-optimize-contrast;
+  padding-top: 6%;
+  margin-top: 1%;
+  margin-left: 3%;
+  padding: 0;
+  float: left;
+}
+
+.hr1{
+  width: 17%;
+  margin: 0;
+  padding: 0;
+  margin-left: 3%;
+  background-color: white;
+}
+
+.h11{
+  font-size: 1.4vw;
+  color: white;
+  font-family: 'Abel', sans-serif;
+  margin-left: 7%;
+  letter-spacing: 4px;
+  margin-top: 4%;
+  animation-delay: 1s;
+}
+
+.ath{
+  padding-top: 0.5vh;
+  font-family: 'Dosis';
+  padding-left: 22vw;
+  color: white;
+  font-size: 0.8vw;
+  letter-spacing: 2px;
+}
+
+.ath1{
+  font-family: 'Dosis';
+  padding-left: 22vw;
+  color: white;
+  font-size: 0.8vw;
+  letter-spacing: 2px;
+  padding-top: 0.1vw;
+}
+
+.ath2{
+  font-family: 'Dosis';
+  padding-left: 22vw;
+  color: red;
+  font-size: 0.8vw;
+  letter-spacing: 2px;
+  padding-top: 0.1vw;
+  transition: 0.2s;
+  text-decoration: blink;
+}
+
+.ath22{
+  font-family: 'Dosis';
+  padding-left: 22vw;
+  color: white;
+  font-size: 0.8vw;
+  letter-spacing: 2px;
+  padding-top: 0.1vw;
+  transition: 0.2s;
+  text-decoration: blink;
+}
+
+.ath3{
+  text-decoration: none;
+  font-family: 'Dosis';
+  padding-left: 2vw;
+  color: red;
+  font-size: 0.8vw;
+  letter-spacing: 2px;
+  margin-top: 0.2vw;
+  transition: 0.1s;
+}
+
+.ath3:hover{
+  text-decoration: line-through;
+  cursor: pointer;
+  font-family: 'Dosis';
+  padding-left: 3vw;
+  color: #FF7878;
+  font-size: 0.8vw;
+  letter-spacing: 2px;
+  padding-top: 0.1vw;
+}
+
+br{
+  margin: 0.2vw;
+}
+
+.hrmm{
+  margin-left: 22vw;
+  width: 12.5vw;
+  background-color: white;
+}
+
+.aaannn{
+  animation: bounce;
+}
+
+.hrmm1{
+  margin-left: 22vw;
+  width: 12.5vw;
+  background-color: red;
+  border-color: red;
+}
+
+.animate__fadeInUp{
+  animation-delay: 0.27s;
+}
+
+.animate__zoomInLeft{
+  animation-delay: 0.8s;
+}
+
+.animate__fadeInLeft{
+  animation-delay: 0.78s;
 }
