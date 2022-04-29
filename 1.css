@@ -830,7 +830,7 @@ body{
 .butshop{
   margin-top: 0.1vw;
 }
-
+}
 @media(max-width:1025px){
 
 .butshop{
@@ -840,8 +840,112 @@ body{
   font-size: 1.5vh;
   position: relative;
 }
+}
+@media(max-width:650px){
+
+.butshop{
+  margin-top: 0vw;
+  font-size: 2.5vh;
+  padding-bottom: 2vw;
+}
+
+.arrr1{
+  width: 20vw;
+}
+
+.artcat{
+  font-size: 1.5vw;
+  margin-top: 2vw;
+  text-align: center;
+  letter-spacing: 2.4vw;
+
+}
+
+.artcat1{
+  font-size: 1.5vw;
+  margin-top: 2vw;
+  letter-spacing: 1.1vw;
+
+}
+
+.hrcard1{
+  width: 15vw;
+}
+
+.artcatta{
+  display: none;
+}
+
+.artistcart1{
+  font-size: 1.1vw;
+  margin-right: 2vw;
+}
+
+.artcatt{
+  font-size: 1.1vw;
+  margin-right: 2vw;
+  text-height: 50px;
+}
+.obl1{
+  margin-top: 2.5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 18vw;
+}
+
+.artcatta{
+  font-size: 1.5vw;
+}
+
+.alb11{
+  width: 20vw;
+}
+
+.artistcart1{
+
+  margin-top: 13vw;
+
+}
+
+.minishop{
+  height: 20vw;
+  margin-top: 40vw;
+
+}
+
+.butshop{
+  height: 2vh;
+  margin: 1px auto;
+  font-size: 1.5vh;
+}
+
+.alb111{
+  min-height: 18vw;
+  margin-left: 18vw;
+}
+
+.alb112{
+  min-height: 18vw;
+  margin-left: 31.5vw;
+}
+
+.alb114{
+  min-height: 18vw;
+  margin-left: 59vw;
+}
 
 
+
+.alb115{
+  max-height: 0vw;
+}
+
+.alb113{
+  min-height: 18vw;
+  margin-left: 45vw;
+}
+
+}
 
 @media(max-width:610px){
 
@@ -849,4 +953,5 @@ body{
   margin-top: 0vw;
   font-size: 2.5vh;
   padding-bottom: 2vw;
+}
 }
