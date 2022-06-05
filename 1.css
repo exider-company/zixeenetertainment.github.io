@@ -299,6 +299,7 @@ body{
   background-position: center;
   background-size: cover;
   image-rendering: -webkit-optimize-contrast;
+  overflow-y: hidden;
 
 }
 
